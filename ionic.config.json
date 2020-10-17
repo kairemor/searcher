@@ -1,0 +1,7 @@
+{
+  "name": "e-commobile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
