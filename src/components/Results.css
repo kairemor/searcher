@@ -1,0 +1,78 @@
+products {
+  margin: 0px;
+  z-index: 10;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1px;
+  /* margin-bottom: 20px; */
+  background-color: rgba(250, 250, 250, 0.8);
+  border-radius: 5px;
+}
+
+.product__rating {
+  display: flex;
+}
+
+.product__image {
+  max-height: 300px;
+  object-fit: contain;
+  width: 40vw;
+  height: 20vh;
+  margin-bottom: 5px;
+}
+
+.product>a {
+  text-decoration: none;
+  color: black;
+}
+
+.product__price {
+  margin-top: 5px;
+}
+
+.product__info {
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.product__button {
+  border: 1px solid;
+  margin: 0 auto;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.jumia {
+  background-color: #f0c14b;
+  border-color: #a88734 #9c7e21 #846a29;
+  color: black;
+}
+
+.konga {
+  background-color: #e25e90;
+  color: white;
+  border-color: #e25e90 #e25eaa #e25e90;
+}
+
+.asos {
+  background-color: black;
+  color: white;
+  border-color: #050505 #060606 #050504;
+}
+
+.payporte {
+  background-color: black;
+  color: white;
+  border-color: #050505 #060606 #050504;
+}
+
+.my-custom-class {
+  --background: #222;
+  --spinner-color: #fff;
+
+  color: #fff;
+}
